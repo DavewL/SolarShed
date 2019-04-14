@@ -2,6 +2,13 @@
 
 A Particle project named SolarShed
 
+## Rules of Operation
+
+When battery is > 90, switch to grid tie.
+When battery is < 90 and temperature > 0, charge battery
+When battery is < 15, turn off loads
+When battery is < 5 for 1 minute and not charging, turn off all electronics
+
 ## Welcome to your project!
 
 Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for SolarShed.
